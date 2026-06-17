@@ -176,12 +176,6 @@
 </div>
 ```
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kydoa&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kydoa&theme=dark&utcOffset=8" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kydoa&theme=github_dark" />
-</p>
-
 ```aura width=860 height=138
 (function() {
  var categories = [
@@ -302,6 +296,11 @@
  );
 })()
 ```
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kydoa&theme=dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kydoa&theme=dark&utcOffset=8" />
+</p>
 
 ```aura width=120 height=44 link="https://www.linkedin.com/in/kydoa/" inline align=center
 <SocialMediaButton
