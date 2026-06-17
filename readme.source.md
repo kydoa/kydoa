@@ -177,8 +177,9 @@
 ```
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kydoa&theme=github_dark&hide_border=true" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kydoa&theme=github_dark&hide_border=true&utcOffset=-4" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kydoa&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kydoa&theme=dark&utcOffset=8" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kydoa&theme=github_dark" />
 </p>
 
 ```aura width=860 height=138
