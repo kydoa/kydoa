@@ -1,4 +1,4 @@
-<img width="59.5%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,100:ffffff&height=135&section=header&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,100:ffffff&height=135&section=header&animation=fadeIn" />
 
 ```aura width=860 height=200
 <div style={{
@@ -393,4 +393,4 @@
   ]}
 />
 ```
-<img width="59.5%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,100:ffffff&height=135&section=footer&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,100:ffffff&height=135&section=footer&animation=fadeIn" />
