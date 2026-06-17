@@ -176,6 +176,10 @@
 </div>
 ```
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kydoa/kydoa/refs/heads/main/icons/backround8.png" />
+</p>
+
 ```aura width=860 height=138
 (function() {
  var categories = [
@@ -304,7 +308,7 @@
 
 ```aura width=120 height=44 link="https://www.linkedin.com/in/kydoa/" inline align=center
 <SocialMediaButton
-  icon="https://raw.githubusercontent.com/d-scheuermann/d-scheuermann/refs/heads/main/icons/linkedin.svg"
+  icon="https://raw.githubusercontent.com/kydoa/kydoa/refs/heads/main/icons/linkedin.svg"
   text="Linkedin"
   backgroundColor="#111111"
   width={120}
@@ -322,7 +326,7 @@
 
 ```aura width=120 height=44 link="https://chat.kydoa.com/" inline align=center
 <SocialMediaButton
-  icon="https://raw.githubusercontent.com/d-scheuermann/d-scheuermann/refs/heads/main/icons/whatsapp.svg"
+  icon="https://raw.githubusercontent.com/kydoa/kydoa/refs/heads/main/icons/whatsapp.svg"
   text="WhatsApp"
   backgroundColor="#111111"
   width={120}
@@ -340,7 +344,7 @@
 
 ```aura width=120 height=44 link="https://kydoa.com/" inline align=center
 <SocialMediaButton
-  icon="https://raw.githubusercontent.com/d-scheuermann/d-scheuermann/refs/heads/main/icons/globe.svg"
+  icon="https://raw.githubusercontent.com/kydoa/kydoa/refs/heads/main/icons/globe.svg"
   text="Kydoa"
   backgroundColor="#111111"
   width={120}
@@ -358,7 +362,7 @@
 
 ```aura width=120 height=44 link="https://github.com/kydoa" inline align=center
 <SocialMediaButton
-  icon="https://raw.githubusercontent.com/d-scheuermann/d-scheuermann/refs/heads/main/icons/github.svg"
+  icon="https://raw.githubusercontent.com/kydoa/kydoa/refs/heads/main/icons/github.svg"
   text="GitHub"
   backgroundColor="#111111"
   width={120}
@@ -376,7 +380,7 @@
 
 ```aura width=120 height=44 link="mailto:daniel@kydoa.com" inline align=center
 <SocialMediaButton
-  icon="https://raw.githubusercontent.com/d-scheuermann/d-scheuermann/refs/heads/main/icons/mail.svg"
+  icon="https://raw.githubusercontent.com/kydoa/kydoa/refs/heads/main/icons/mail.svg"
   text="Email"
   backgroundColor="#111111"
   width={120}
