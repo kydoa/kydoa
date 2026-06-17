@@ -1,5 +1,3 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,100:ffffff&height=135&section=header&animation=fadeIn" />
-
 ```aura width=860 height=200
 <div style={{
  width: '100%', height: '100%', background: '#08080c',
