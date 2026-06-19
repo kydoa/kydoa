@@ -23,7 +23,7 @@ jobs:
       - name: Generate README
         uses: collectioneur/readme-aura@main
         with:
-          source: README.source.md
+          source: readme.source.md
           output: README.md
           assets_dir: .github/assets
           github_token: ${{ secrets.GITHUB_TOKEN }}
