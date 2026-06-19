@@ -1,8 +1,11 @@
 name: Generate README
+
 on:
   push:
     branches: [main]
-    paths: ['readme.source.md']
+    paths:
+      - 'README.source.md'
+      - '.github/workflows/readme-aura.yml'
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
@@ -14,9 +17,16 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Generate README
         uses: collectioneur/readme-aura@main
         with:
+          source: README.source.md
+          output: README.md
+          assets_dir: .github/assets
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user: kydoa
+          auto_commit: 'true'
+          commit_message: 'regenerate README'
