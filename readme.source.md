@@ -303,7 +303,7 @@
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kydoa&theme=dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kydoa&theme=dark&utcOffset=8" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kydoa&theme=dark&utcOffset=-3" />
 </p>
 
 ```aura width=120 height=44 link="https://www.linkedin.com/in/kydoa/" inline align=center
@@ -395,4 +395,4 @@
   ]}
 />
 ```
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,100:ffffff&height=135&section=footer&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:808080,100:808080&height=135&section=footer&animation=fadeIn" />
