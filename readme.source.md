@@ -301,11 +301,6 @@
 })()
 ```
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kydoa&theme=dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kydoa&theme=dark&utcOffset=-3" />
-</p>
-
 ```aura width=120 height=44 link="https://www.linkedin.com/in/kydoa/" inline align=center
 <SocialMediaButton
   icon="https://raw.githubusercontent.com/kydoa/kydoa/refs/heads/main/icons/linkedin.svg"
