@@ -200,7 +200,7 @@
   textAlign: 'center', fontSize: 14, lineHeight: 1.9,
   color: 'rgba(220,220,220,0.72)', letterSpacing: '0.2px',
 }}>
-  {['80 82 65 73 83 69 32 84 72 69 32 67 79 68 69 44 32 83 72 65 82 69 32 84 72 69 32 67 79 68 69 46'].map(function(line, i) {
+  {['80 82 65 73 83 69 32 84 72 69 32 67 79 68 69 44 32 83 80 82 69 65 68 32 84 72 69 32 67 79 68 69 46'].map(function(line, i) {
     return (
       <div key={i} className="line" style={{
         animationDelay: (i * 0.35) + 's',
