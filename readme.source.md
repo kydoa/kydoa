@@ -176,6 +176,43 @@
 </div>
 ```
 
+```aura width=860 height=70
+<div style={{
+  width: '100%', height: '100%', background: '#08080c',
+  display: 'flex', alignItems: 'center', justifyContent: 'center',
+  fontFamily: 'Inter, sans-serif', borderRadius: 16,
+  border: '1px solid rgba(255,255,255,0.14)',
+  position: 'relative', overflow: 'hidden',
+  padding: '32px 48px', boxSizing: 'border-box',
+}}>
+<style>{`
+  @keyframes fadeUp {
+    0%   { opacity: 0; transform: translateY(8px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .line {
+    animation: fadeUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+`}</style>
+<div style={{
+  display: 'flex', flexDirection: 'column', gap: 6,
+  textAlign: 'center', fontSize: 14, lineHeight: 1.9,
+  color: 'rgba(220,220,220,0.72)', letterSpacing: '0.2px',
+}}>
+  {['80 82 65 73 83 69 32 84 72 69 32 67 79 68 69 44 32 83 72 65 82 69 32 84 72 69 32 67 79 68 69 46'].map(function(line, i) {
+    return (
+      <div key={i} className="line" style={{
+        animationDelay: (i * 0.35) + 's',
+        fontWeight: i === 15 ? 700 : 400,
+        color: i === 15 ? '#ffffff' : 'rgba(220,220,220,0.72)',
+      }}>{line}</div>
+    );
+  })}
+</div>
+</div>
+```
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/kydoa/kydoa/refs/heads/main/icons/backround8.png" />
 </p>
